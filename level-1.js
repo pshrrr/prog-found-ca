@@ -82,10 +82,10 @@ subtractNumbers(10, 7);
 
 // Question 10
 
-var emptyArray = [];
+var array = [];
 
 function add(number) {
-  var emptyArray = number;
-  console.log(emptyArray);
+  array.push(number);
+  console.log(array);
 }
 add(5);
