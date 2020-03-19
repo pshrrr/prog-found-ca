@@ -82,10 +82,10 @@ subtractNumbers(10, 7);
 
 // Question 10
 
-var array = [];
+var myCar = [];
 
-function add(number) {
-  array.push(number);
-  console.log(array);
+function carBrand(brandName) {
+  myCar.push(brandName);
+  console.log(myCar);
 }
-add(5);
+carBrand("Volkswagen");
